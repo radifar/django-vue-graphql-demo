@@ -1,3 +1,4 @@
 *pycache*
 django/.env
 django/db.sqlite3
+django/static/
