@@ -21,7 +21,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = os.getenv("DEBUG")
+HOSTNAME = os.getenv("HOSTNAME")
 ALLOWED_HOSTS = []
+ALLOWED_HOSTS.append(HOSTNAME)
 
 
 # Application definition
